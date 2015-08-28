@@ -1,0 +1,24 @@
+#!/usr/bin/env php
+<?php
+    if(count($argv) == 1)
+        {
+        echo "\n\nbtcexchange\n";
+        echo "======================================\n\n";
+        echo "Usage: ./btcexchange command\n\n";
+        echo " \n";
+        exit;
+    }
+
+    require_once('../vendor/autoload.php');
+
+    echo "\n";
+
+    use Del;
+    try {
+        $btc = new BTCExchange();
+        echo $btc->blah();
+    }
+    catch(Exception $e){
+        echo "There was a problem. \n".$e->getMessage()."\n\n";
+    }
+    echo "\n";

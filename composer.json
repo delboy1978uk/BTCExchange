@@ -1,0 +1,22 @@
+{
+    "name": "delboy1978uk/phpbitcoin",
+    "description": "A PHP Service for connecting to various Bitcoin exchange API's",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Derek McLean",
+            "email": "delboy1978uk@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "dev-master"
+    },
+    "require-dev":{
+        "codeception/codeception":"dev-master"
+    },
+    "autoload":{
+        "psr-4":{
+            "Del\\":"src/"
+        }
+    }
+}
