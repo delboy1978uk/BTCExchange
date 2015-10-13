@@ -1,0 +1,19 @@
+<?php
+return [
+    'btce' => [
+        'key' => 'blah',
+        'secret' => 'blah',
+    ],
+    'kraken' => [
+        'key' => 'blah',
+        'secret' => 'blah',
+    ],
+    'bitfinex' => [
+        'key' => 'blah',
+        'secret' => 'blah',
+    ],
+    'bitstamp' => [
+        'key' => 'blah',
+        'secret' => 'blah',
+    ],
+];

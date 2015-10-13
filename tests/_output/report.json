@@ -1,0 +1,9 @@
+{
+    "event": "suiteStart",
+    "suite": "unit",
+    "tests": 2
+}{
+    "event": "testStart",
+    "suite": "unit",
+    "test": "Del\\BTCTradeApiTest::testGetAndSetConfig"
+}

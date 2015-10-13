@@ -1,0 +1,699 @@
+<?php
+$coverage = new PHP_CodeCoverage;
+$coverage->setData(array (
+  '/var/www/btcexchange/src/BTCTradeAPI.php' => 
+  array (
+    21 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetAndSetConfig',
+      1 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+    ),
+    22 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetAndSetConfig',
+      1 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+    ),
+    29 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+    ),
+    30 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+    ),
+    31 => NULL,
+    38 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetAndSetConfig',
+      1 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+    ),
+    39 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetAndSetConfig',
+      1 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+    ),
+    46 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetAndSetConfig',
+    ),
+    47 => NULL,
+  ),
+  '/var/www/btcexchange/src/Exchange/Config.php' => 
+  array (
+    23 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+      9 => 'Del\\ConfigTest::testGetKeyAndSecret',
+      10 => 'Del\\ConfigTest::testThrowsExceptionWhenRubbishDataProvided',
+    ),
+    24 => 
+    array (
+      0 => 'Del\\ConfigTest::testThrowsExceptionWhenRubbishDataProvided',
+    ),
+    25 => NULL,
+    26 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+      9 => 'Del\\ConfigTest::testGetKeyAndSecret',
+      10 => 'Del\\ConfigTest::testThrowsExceptionWhenRubbishDataProvided',
+    ),
+    27 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+      9 => 'Del\\ConfigTest::testGetKeyAndSecret',
+      10 => 'Del\\ConfigTest::testThrowsExceptionWhenRubbishDataProvided',
+    ),
+    28 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+      9 => 'Del\\ConfigTest::testGetKeyAndSecret',
+      10 => 'Del\\ConfigTest::testThrowsExceptionWhenRubbishDataProvided',
+    ),
+    35 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+      8 => 'Del\\ConfigTest::testGetKeyAndSecret',
+    ),
+    36 => NULL,
+    43 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+      8 => 'Del\\ConfigTest::testGetKeyAndSecret',
+    ),
+    44 => NULL,
+  ),
+  '/var/www/btcexchange/src/Exchange/BtcE.php' => 
+  array (
+    20 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    22 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    23 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    24 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    26 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    28 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    29 => 
+    array (
+      0 => 'Del\\BtcETest::testGetTicker',
+    ),
+    33 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    34 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    37 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    38 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    43 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    44 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    45 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    48 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    49 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    50 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+    ),
+    51 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+    ),
+    52 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+    ),
+    53 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+    ),
+    54 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    55 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    56 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    57 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    60 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    61 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    62 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    63 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    64 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+      7 => 'Del\\BtcETest::testGetTicker',
+    ),
+    65 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testBuyOrder',
+      2 => 'Del\\BtcETest::testSellOrder',
+      3 => 'Del\\BtcETest::testGetOrders',
+      4 => 'Del\\BtcETest::testCancelOrder',
+      5 => 'Del\\BtcETest::testGetTransactionHistory',
+      6 => 'Del\\BtcETest::testGetTradeHistory',
+    ),
+    66 => NULL,
+    67 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testGetTicker',
+    ),
+    69 => NULL,
+    76 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+    ),
+    77 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+    ),
+    87 => 
+    array (
+      0 => 'Del\\BtcETest::testBuyOrder',
+    ),
+    88 => 
+    array (
+      0 => 'Del\\BtcETest::testBuyOrder',
+    ),
+    89 => 
+    array (
+      0 => 'Del\\BtcETest::testBuyOrder',
+    ),
+    90 => 
+    array (
+      0 => 'Del\\BtcETest::testBuyOrder',
+    ),
+    92 => 
+    array (
+      0 => 'Del\\BtcETest::testBuyOrder',
+    ),
+    93 => NULL,
+    102 => 
+    array (
+      0 => 'Del\\BtcETest::testSellOrder',
+    ),
+    103 => 
+    array (
+      0 => 'Del\\BtcETest::testSellOrder',
+    ),
+    104 => 
+    array (
+      0 => 'Del\\BtcETest::testSellOrder',
+    ),
+    105 => 
+    array (
+      0 => 'Del\\BtcETest::testSellOrder',
+    ),
+    107 => 
+    array (
+      0 => 'Del\\BtcETest::testSellOrder',
+    ),
+    108 => NULL,
+    116 => 
+    array (
+      0 => 'Del\\BtcETest::testGetInfo',
+      1 => 'Del\\BtcETest::testGetTicker',
+    ),
+    117 => NULL,
+    124 => 
+    array (
+      0 => 'Del\\BtcETest::testGetTicker',
+    ),
+    125 => NULL,
+    131 => 
+    array (
+      0 => 'Del\\BtcETest::testGetOrders',
+    ),
+    133 => 
+    array (
+      0 => 'Del\\BtcETest::testGetOrders',
+    ),
+    134 => NULL,
+    139 => 
+    array (
+      0 => 'Del\\BtcETest::testGetTransactionHistory',
+    ),
+    140 => NULL,
+    144 => 
+    array (
+      0 => 'Del\\BtcETest::testGetTradeHistory',
+    ),
+    145 => NULL,
+    151 => 
+    array (
+      0 => 'Del\\BtcETest::testCancelOrder',
+    ),
+    153 => 
+    array (
+      0 => 'Del\\BtcETest::testCancelOrder',
+    ),
+    154 => NULL,
+  ),
+  '/var/www/btcexchange/src/Exchange/ExchangeInterface.php' => 
+  array (
+  ),
+  '/var/www/btcexchange/src/Exchange/ExchangeAbstract.php' => 
+  array (
+    20 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+    ),
+    21 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+    ),
+    22 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+    ),
+    32 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+    ),
+    33 => 
+    array (
+      0 => 'Del\\BTCTradeApiTest::testGetBtcEExchange',
+      1 => 'Del\\BtcETest::testGetInfo',
+      2 => 'Del\\BtcETest::testBuyOrder',
+      3 => 'Del\\BtcETest::testSellOrder',
+      4 => 'Del\\BtcETest::testGetOrders',
+      5 => 'Del\\BtcETest::testCancelOrder',
+      6 => 'Del\\BtcETest::testGetTransactionHistory',
+      7 => 'Del\\BtcETest::testGetTradeHistory',
+      8 => 'Del\\BtcETest::testGetTicker',
+    ),
+    34 => NULL,
+  ),
+  '/var/www/btcexchange/src/Exchange/Bitfinex.php' => 
+  array (
+  ),
+  '/var/www/btcexchange/src/Exchange/Bitstamp.php' => 
+  array (
+  ),
+  '/var/www/btcexchange/src/Exchange/Kraken.php' => 
+  array (
+  ),
+));
+$coverage->setTests(array (
+  'Del\\BTCTradeApiTest::testGetAndSetConfig' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\BTCTradeApiTest::testGetBtcEExchange' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\BtcETest::testGetInfo' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\BtcETest::testBuyOrder' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\BtcETest::testSellOrder' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\BtcETest::testGetOrders' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\BtcETest::testCancelOrder' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\BtcETest::testGetTransactionHistory' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\BtcETest::testGetTradeHistory' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\BtcETest::testGetTicker' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\ConfigTest::testGetKeyAndSecret' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Del\\ConfigTest::testThrowsExceptionWhenRubbishDataProvided' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setBlacklistedFiles(array (
+));
+$filter->setWhitelistedFiles(array (
+  '/var/www/btcexchange/src/BTCTradeAPI.php' => true,
+  '/var/www/btcexchange/src/Exchange/Bitfinex.php' => true,
+  '/var/www/btcexchange/src/Exchange/Bitstamp.php' => true,
+  '/var/www/btcexchange/src/Exchange/BtcE.php' => true,
+  '/var/www/btcexchange/src/Exchange/Config.php' => true,
+  '/var/www/btcexchange/src/Exchange/ExchangeAbstract.php' => true,
+  '/var/www/btcexchange/src/Exchange/ExchangeInterface.php' => true,
+  '/var/www/btcexchange/src/Exchange/Kraken.php' => true,
+));
+
+return $coverage;
