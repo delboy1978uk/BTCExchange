@@ -7,7 +7,7 @@ A PHP Service for connecting to various Bitcoin exchange API's
 composer require delboy1978uk/btcexchange
 ```
 ##Usage
-```
+```php
 use Del\BTCTradeApi;
 
 $settings = [
@@ -27,7 +27,7 @@ $btce = $api->getBtcEExchange();
 $result = $btce->buyOrder(3.2, 240.221); // Buy 3.2BTC at a price of $240.221 per Bitcoin 
 ```
 ###API Methods
-```
+```php
 $btce->buyOrder($btc_amt, $price);
 $btce->cancelOrder($id);
 $btce->getInfo();
