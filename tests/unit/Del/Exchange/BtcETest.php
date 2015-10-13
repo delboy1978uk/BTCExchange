@@ -87,8 +87,6 @@ class BtcETest extends Test
 
     public function testGetTicker()
     {
-        $this->api->getInfo();
-        $this->api->getInfo(); // these two lines for complete code coverage
         $tick = $this->api->getTicker();
         $this->assertNotEmpty($tick);
         $this->assertNotEmpty($tick['btc_usd']);

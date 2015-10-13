@@ -110,8 +110,7 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
-      8 => 'Del\\ConfigTest::testGetKeyAndSecret',
+      7 => 'Del\\ConfigTest::testGetKeyAndSecret',
     ),
     36 => NULL,
     43 => 
@@ -123,8 +122,7 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
-      8 => 'Del\\ConfigTest::testGetKeyAndSecret',
+      7 => 'Del\\ConfigTest::testGetKeyAndSecret',
     ),
     44 => NULL,
   ),
@@ -139,7 +137,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     22 => 
     array (
@@ -150,7 +147,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     23 => 
     array (
@@ -161,7 +157,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     24 => 
     array (
@@ -172,7 +167,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     26 => 
     array (
@@ -183,7 +177,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     28 => 
     array (
@@ -194,11 +187,9 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     29 => 
     array (
-      0 => 'Del\\BtcETest::testGetTicker',
     ),
     33 => 
     array (
@@ -209,7 +200,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     34 => 
     array (
@@ -220,7 +210,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     37 => 
     array (
@@ -231,7 +220,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     38 => 
     array (
@@ -242,7 +230,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     43 => 
     array (
@@ -253,7 +240,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     44 => 
     array (
@@ -264,7 +250,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     45 => 
     array (
@@ -275,7 +260,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     48 => 
     array (
@@ -286,7 +270,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     49 => 
     array (
@@ -297,7 +280,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     50 => 
     array (
@@ -324,7 +306,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     55 => 
     array (
@@ -335,7 +316,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     56 => 
     array (
@@ -346,7 +326,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     57 => 
     array (
@@ -357,7 +336,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     60 => 
     array (
@@ -368,7 +346,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     61 => 
     array (
@@ -379,7 +356,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     62 => 
     array (
@@ -390,7 +366,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     63 => 
     array (
@@ -401,7 +376,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     64 => 
     array (
@@ -412,7 +386,6 @@ $coverage->setData(array (
       4 => 'Del\\BtcETest::testCancelOrder',
       5 => 'Del\\BtcETest::testGetTransactionHistory',
       6 => 'Del\\BtcETest::testGetTradeHistory',
-      7 => 'Del\\BtcETest::testGetTicker',
     ),
     65 => 
     array (
@@ -428,7 +401,6 @@ $coverage->setData(array (
     67 => 
     array (
       0 => 'Del\\BtcETest::testGetInfo',
-      1 => 'Del\\BtcETest::testGetTicker',
     ),
     69 => NULL,
     76 => 
@@ -500,7 +472,6 @@ $coverage->setData(array (
     116 => 
     array (
       0 => 'Del\\BtcETest::testGetInfo',
-      1 => 'Del\\BtcETest::testGetTicker',
     ),
     117 => NULL,
     124 => 
