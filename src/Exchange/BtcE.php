@@ -51,7 +51,7 @@ class BtcE extends ExchangeAbstract
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/4.0 (compatible; BTCE PHP client; '.php_uname('s').'; PHP/'.phpversion().')');
         }
-        curl_setopt($ch, CURLOPT_URL, 'https://btc-e.com/tapi/');
+        curl_setopt($ch, CURLOPT_URL, 'https://wex.nz/tapi/');
         curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
