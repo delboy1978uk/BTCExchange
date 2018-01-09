@@ -54,8 +54,8 @@ class BtcE extends ExchangeAbstract
         curl_setopt($ch, CURLOPT_URL, 'https://wex.nz/tapi/');
         curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 
         // run the query
         $res = curl_exec($ch);
@@ -74,7 +74,7 @@ class BtcE extends ExchangeAbstract
      */
     public function setClient()
     {
-        $this->client = new Client(['base_uri' => 'https://btc-e.com/tapi/']);
+        $this->client = new Client(['base_uri' => 'https://wex.nz/tapi/']);
     }
 
     /**
