@@ -49,6 +49,8 @@ interface ExchangeInterface
 
     public function getTicker();
 
+    public function getOrderBook();
+
     public function setClient();
 
 }

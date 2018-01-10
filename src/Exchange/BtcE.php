@@ -128,6 +128,15 @@ class BtcE extends ExchangeAbstract
 
 
     /**
+     * @return array
+     */
+    public function getOrderBook($pair = 'btc_usd')
+    {
+        return json_decode($this->client->get('https://wex.nz/api/3/trades/' . $pair)->getBody()->getContents(), true);
+    }
+
+
+    /**
      * @return mixed
      * @throws \Exception
      */
