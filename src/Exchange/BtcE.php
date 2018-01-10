@@ -97,6 +97,7 @@ class BtcE extends ExchangeAbstract
      * @param $btc
      * @param $price
      * @return mixed
+     * @throws \Exception
      */
     public function sellOrder($btc, $price)
     {
@@ -122,11 +123,14 @@ class BtcE extends ExchangeAbstract
      */
     public function getTicker()
     {
-        return json_decode($this->client->get('https://btc-e.com/api/3/ticker/btc_usd')->getBody()->getContents(), true);
+        return json_decode($this->client->get('https://wex.nz/api/3/ticker/btc_usd')->getBody()->getContents(), true);
     }
 
 
-
+    /**
+     * @return mixed
+     * @throws \Exception
+     */
     public function getOrders()
     {
         return $this->send('ActiveOrders',[
@@ -134,19 +138,30 @@ class BtcE extends ExchangeAbstract
         ]);
     }
 
-
+    /**
+     * @return mixed
+     * @throws \Exception
+     */
     public function getTransactionHistory()
     {
         return $this->send('TransHistory',[]);
     }
 
+    /**
+     * @return mixed
+     * @throws \Exception
+     */
     public function getTradeHistory()
     {
         return $this->send('TradeHistory',[]);
     }
 
 
-
+    /**
+     * @param $order_id
+     * @return mixed
+     * @throws \Exception
+     */
     public function cancelOrder($order_id)
     {
         return $this->send('CancelOrder',[
