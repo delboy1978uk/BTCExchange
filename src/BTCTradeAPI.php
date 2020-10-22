@@ -1,15 +1,9 @@
 <?php
-/**
- * User: delboy1978uk
- * Date: 14/08/15
- * Time: 15:56
- */
 
 namespace Del;
 
-use Del\Exchange\BtcE;
+use Del\Exchange\Binance;
 use Del\Exchange\Config;
-
 
 class BTCTradeAPI
 {
@@ -26,8 +20,10 @@ class BTCTradeAPI
      */
     public function getBtcEExchange()
     {
-        $config = new Config($this->config['btce']);
-        return new BtcE($config);
+        $key = $this->config['binance']['key'];
+        $secret = $this->config['binance']['secret'];
+
+        return new Binance\API($key, $secret);
     }
 
     /**
