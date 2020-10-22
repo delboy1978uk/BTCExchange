@@ -2,12 +2,20 @@
 
 namespace Del\Exchange;
 
+use Binance\API;
 use GuzzleHttp\Client;
 
 class Binance extends ExchangeAbstract
 {
     private $nonce = false;
 
+    /** @var API $client */
+    protected $client;
+
+    public function __construct(Config $config)
+    {
+        parent::__construct($config);
+    }
 
     /**
      * @param $uri
@@ -74,7 +82,7 @@ class Binance extends ExchangeAbstract
      */
     public function setClient()
     {
-        $this->client = new Client(['base_uri' => 'https://wex.nz/tapi/']);
+        $this->client = new API($this->config->getKey(), $this->config->getSecret());
     }
 
     /**
@@ -130,9 +138,11 @@ class Binance extends ExchangeAbstract
     /**
      * @return array
      */
-    public function getOrderBook($pair = 'btc_usd')
+    public function getOrderBook($pair = 'BTCUSD')
     {
-        return json_decode($this->client->get('https://wex.nz/api/3/depth/' . $pair)->getBody()->getContents(), true);
+        $orders = $this->client->openOrders($pair);
+
+        return json_decode($orders, true);
     }
 
 

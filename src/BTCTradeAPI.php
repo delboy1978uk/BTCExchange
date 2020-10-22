@@ -18,12 +18,11 @@ class BTCTradeAPI
     /**
      * @return string
      */
-    public function getBtcEExchange()
+    public function getBinanceExchange()
     {
-        $key = $this->config['binance']['key'];
-        $secret = $this->config['binance']['secret'];
+        $config = new Config($this->config['binance']);
 
-        return new Binance\API($key, $secret);
+        return new Binance($config);
     }
 
     /**

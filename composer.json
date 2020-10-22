@@ -1,4 +1,4 @@
-{
+\{
     "name": "delboy1978uk/btc-exchange",
     "description": "A PHP Service for connecting to various Bitcoin exchange API's",
     "license": "MIT",
@@ -11,7 +11,7 @@
     "require": {
         "php": ">=5.4.0",
         "guzzlehttp/guzzle": "~6.0",
-        "jaggedsoft/php-binance-api": "^0.5.24"
+        "delboy1978uk/binance": "^1.0"
     },
     "require-dev":{
         "codeception/codeception":"dev-master"
